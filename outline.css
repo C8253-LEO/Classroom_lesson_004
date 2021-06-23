@@ -1,0 +1,49 @@
+.outline{
+    border: 3px solid salmon;
+    padding: 15px;
+    text-align: center;
+    outline: 1px solid black;
+}
+
+p{
+    outline-color: rgb(190, 126, 52);
+    text-align: center;
+    /*margin: 20px;*/
+    padding: 15px;
+    outline-width: 7px;
+}
+
+p.dotted{
+    outline-style: dotted;
+}
+
+p.dashed{
+    outline-style: dashed;
+}
+
+p.solid{
+    outline-style: solid;
+    outline-color: royalblue;
+    border: 8px solid red;
+    outline-offset: 25px;
+}
+
+p.double{
+    outline-style: double;
+}
+
+p.groove{
+    outline-style: groove;
+}
+
+p.ridge{
+    outline-style: ridge;
+}
+
+p.inset{
+    outline-style: inset;
+}
+
+p.outset{
+    outline: 5px outset purple;
+}
